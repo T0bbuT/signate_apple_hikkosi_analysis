@@ -1,0 +1,2 @@
+# signate_apple_hikkosi_analysis
+SIGNATEのコンペ「アップル 引越し需要予測」を題材としたデータ分析
