@@ -16,12 +16,8 @@
 ## notebookの閲覧について
 notebookフォルダ内にEDAやモデル構築に使ったノートブックが配置されています。  
 ただし、EDA2.ipynbにはplotlyで作ったインタラクティブなグラフが入っており、これはgithubのプレビューでは表示できません。  
-[こちら](https://t0bbut.github.io/signate_apple_hikkosi_analysis/)からご確認下さい。  
+[こちら](https://t0bbut.github.io/signate_apple_hikkosi_analysis/EDA2.html)からご確認下さい。  
 
 ## ディレクトリ構成
 
 ## 実行方法
-
-[1]: https://user.competition.signate.jp/ja/competition/detail/?competition=ada98a13ab224468b1c7191d819d7646
-[2]: https://t0bbut.github.io/signate_apple_hikkosi_analysis/
-[3]: https://t0bbut.github.io/signate_apple_hikkosi_analysis/成果物資料_引っ越し需要予測.pdf
