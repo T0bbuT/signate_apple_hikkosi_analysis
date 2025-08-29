@@ -10,7 +10,7 @@
 2つの基本モデルを組み合わせて構築
 
 ## 説明資料
-スライドによる説明資料は以下からご覧ください。
+スライドによる説明資料は以下からご覧ください。  
 [![スライドのサムネイル](docs/slides_thmb.png)](https://t0bbut.github.io/signate_apple_hikkosi_analysis/成果物資料_引っ越し需要予測.pdf)
 
 ## notebookの閲覧について
