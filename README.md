@@ -14,8 +14,9 @@
 [![スライドのサムネイル](docs/slides_thmb.png)](https://t0bbut.github.io/signate_apple_hikkosi_analysis/成果物資料_引っ越し需要予測.pdf)
 
 ## notebookの閲覧について
-notebook内にEDAやモデル構築に使ったノートブックが配置されています。  
-ただし、plotlyで作ったインタラクティブなグラフはgithubのプレビューでは表示できません。[こちら](https://t0bbut.github.io/signate_apple_hikkosi_analysis/)からご確認下さい。  
+notebookフォルダ内にEDAやモデル構築に使ったノートブックが配置されています。  
+ただし、EDA2.ipynbにはplotlyで作ったインタラクティブなグラフが入っており、これはgithubのプレビューでは表示できません。  
+[こちら](https://t0bbut.github.io/signate_apple_hikkosi_analysis/)からご確認下さい。  
 
 ## ディレクトリ構成
 
