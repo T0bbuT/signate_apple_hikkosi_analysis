@@ -9,6 +9,10 @@
 
 2つの基本モデルを組み合わせて構築
 
+## 説明資料
+スライドによる説明資料は[こちら][3]からご覧ください。
+
+
 ## notebookの閲覧について
 notebook内にEDAやモデル構築に使ったノートブックが配置されています。  
 ただし、plotlyで作ったインタラクティブなグラフはgithubのプレビューでは表示できません。[こちら][2]からご確認下さい。  
@@ -19,3 +23,4 @@ notebook内にEDAやモデル構築に使ったノートブックが配置され
 
 [1]: https://user.competition.signate.jp/ja/competition/detail/?competition=ada98a13ab224468b1c7191d819d7646
 [2]: https://t0bbut.github.io/signate_apple_hikkosi_analysis/
+[3]: https://t0bbut.github.io/signate_apple_hikkosi_analysis/成果物資料_引っ越し需要予測.pdf
