@@ -1,6 +1,6 @@
 # 引っ越し需要予測のための機械学習モデル
 ## 概要
-[SIGNATEのコンペ「アップル 引越し需要予測」][1]を題材としたデータ分析。
+[SIGNATEのコンペ「アップル 引越し需要予測」](https://user.competition.signate.jp/ja/competition/detail/?competition=ada98a13ab224468b1c7191d819d7646)を題材としたデータ分析。
 
 引越し業者における時期ごとの最適な価格設定のため、機械学習を利用した受注件数の予測モデルを開発  
 最終的なモデルは
@@ -10,12 +10,12 @@
 2つの基本モデルを組み合わせて構築
 
 ## 説明資料
-スライドによる説明資料は[こちら][3]からご覧ください。
-
+スライドによる説明資料は以下からご覧ください。
+[![スライドのサムネイル](docs/slides_thmb.png)](https://t0bbut.github.io/signate_apple_hikkosi_analysis/成果物資料_引っ越し需要予測.pdf)
 
 ## notebookの閲覧について
 notebook内にEDAやモデル構築に使ったノートブックが配置されています。  
-ただし、plotlyで作ったインタラクティブなグラフはgithubのプレビューでは表示できません。[こちら][2]からご確認下さい。  
+ただし、plotlyで作ったインタラクティブなグラフはgithubのプレビューでは表示できません。[こちら](https://t0bbut.github.io/signate_apple_hikkosi_analysis/)からご確認下さい。  
 
 ## ディレクトリ構成
 
