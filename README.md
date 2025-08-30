@@ -19,7 +19,10 @@
 
 ## notebookの閲覧について
 notebookフォルダ内にEDAやモデル構築に使ったノートブックが配置されていますが、出力は消してあります。  
-出力を含めたノートブック全体の様子は[こちら](https://t0bbut.github.io/signate_apple_hikkosi_analysis/)からご確認下さい。  
+出力を含めたノートブック全体の様子は以下からご確認下さい。  
+- [EDA](https://t0bbut.github.io/signate_apple_hikkosi_analysis/EDA.html)
+- [model1](https://t0bbut.github.io/signate_apple_hikkosi_analysis/model1.html)
+- [model2](https://t0bbut.github.io/signate_apple_hikkosi_analysis/model2.html)
 
 ## 環境の再現方法
 このリポジトリは **Python 3.11.9** で動作確認しています。  
