@@ -18,7 +18,7 @@
 [![スライドのサムネイル](docs/slides_thmb.png)](https://t0bbut.github.io/signate_apple_hikkosi_analysis/成果物資料_引っ越し需要予測.pdf)
 
 ## notebookの閲覧について
-notebookフォルダ内にEDAやモデル構築に使ったノートブックが配置されていますが、出力は消してあります。  
+[notebooks](notebooks)フォルダ内にEDAやモデル構築に使ったノートブックが配置されていますが、出力は消してあります。  
 出力を含めたノートブック全体の様子は以下からご確認下さい。  
 - [EDA](https://t0bbut.github.io/signate_apple_hikkosi_analysis/EDA.html)
 - [model1](https://t0bbut.github.io/signate_apple_hikkosi_analysis/model1.html)
