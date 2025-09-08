@@ -23,7 +23,7 @@
 - [EDA](https://t0bbut.github.io/signate_apple_hikkosi_analysis/EDA.html)
 - [model_特徴量追加なし](https://t0bbut.github.io/signate_apple_hikkosi_analysis/model_特徴量追加なし.html)
 - [model_年月日_曜日](https://t0bbut.github.io/signate_apple_hikkosi_analysis/model_年月日_曜日.html)
-- [model_年月日_曜日_祝日_価格の和差積](https://t0bbut.github.io/signate_apple_hikkosi_analysis/model_年月日_曜日_祝日_価格の和差積.ipynb)
+- [model_年月日_曜日_祝日_価格の和差積](https://t0bbut.github.io/signate_apple_hikkosi_analysis/model_年月日_曜日_祝日_価格の和差積.html)
 
 ## 環境の再現方法
 このリポジトリは **Python 3.11.9** で動作確認しています。  
