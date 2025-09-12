@@ -26,7 +26,7 @@
 - [model_年月日_曜日_祝日_価格の和差積](https://t0bbut.github.io/signate_apple_hikkosi_analysis/model_年月日_曜日_祝日_価格の和差積.html)
 
 ## 環境の再現方法
-このリポジトリは **Python 3.11.9** で動作確認しています。  
+このリポジトリは **Python 3.11.9** (windows)で動作確認しています。  
 以下の手順で仮想環境を構築し、依存ライブラリをインストールできます。  
 
 ```bash
@@ -37,7 +37,7 @@ cd signate_apple_hikkosi_analysis
 python -m venv .venv
 
 # 仮想環境の有効化
-source .venv/bin/activate   # Windows の場合は .venv\Scripts\activate
+.venv\Scripts\activate
 
 # 依存ライブラリのインストール
 pip install -r requirements.txt
