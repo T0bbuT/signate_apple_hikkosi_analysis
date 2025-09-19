@@ -26,8 +26,8 @@
 - [model_年月日_曜日_祝日_価格の和差積](https://t0bbut.github.io/signate_apple_hikkosi_analysis/model_年月日_曜日_祝日_価格の和差積.html)
 
 ## 環境の再現方法
-このリポジトリは **Python 3.11.9** (windows)で動作確認しています。  
-以下の手順で仮想環境を構築し、依存ライブラリをインストールできます。  
+このリポジトリは **Python 3.11.9** (windows)で動作確認しています※。  
+以下の手順で仮想環境を構築し、requirements.txtから依存ライブラリをインストールできます。  
 
 ```bash
 git clone https://github.com/T0bbuT/signate_apple_hikkosi_analysis.git
@@ -42,6 +42,9 @@ python -m venv .venv
 # 依存ライブラリのインストール
 pip install -r requirements.txt
 ```
+  
+※windows以外のOSの場合は、pip-toolsのpip-compileを使ってrequirements.inからrequirements.txtをコンパイルすることで自身のOSに対応した環境が作成できるかと思います。  
+
 ### データについて
 その後、[コンペサイト](https://user.competition.signate.jp/ja/competition/detail/?competition=ada98a13ab224468b1c7191d819d7646)からデータをダウンロードし、data\input\に配置して実行しておりました。  
 ※ 2025/08/30現在、コンペは既に開催終了しておりデータへのアクセスは不可能のため、完全な再現はできません。代わりにダミーデータを配置する予定です。コードの流れを読む用途にご利用ください。
