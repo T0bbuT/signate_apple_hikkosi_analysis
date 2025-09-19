@@ -43,7 +43,7 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
   
-※windows以外のOSの場合は、pip-toolsのpip-compileを使ってrequirements.inからrequirements.txtをコンパイルすることで自身のOSに対応した環境が作成できるかと思います。  
+※windows以外のOSの場合は、pip-toolsのpip-compileを使ってrequirements.inからコンパイルすることで、自身のOSに対応したrequirements.txtが作成できるかと思います。  
 
 ### データについて
 その後、[コンペサイト](https://user.competition.signate.jp/ja/competition/detail/?competition=ada98a13ab224468b1c7191d819d7646)からデータをダウンロードし、data\input\に配置して実行しておりました。  
