@@ -13,10 +13,6 @@
 
 ※本予測モデルの構築は[SIGNATEのコンペ「アップル 引越し需要予測」](https://user.competition.signate.jp/ja/competition/detail/?competition=ada98a13ab224468b1c7191d819d7646)を題材として行いました  
 
-### 説明資料
-スライドによる概要の説明は以下からご覧ください。  
-[![スライドのサムネイル](docs/slides_thmb.png)](https://t0bbut.github.io/signate_apple_hikkosi_analysis/成果物資料_引っ越し需要予測.pdf)
-
 ## notebookの閲覧について
 [notebooks](notebooks)フォルダ内にEDAやモデル構築に使ったノートブックが配置されていますが、出力は消してあります。  
 出力を含めたノートブック全体の様子は以下からご確認下さい。  
