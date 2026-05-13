@@ -1,0 +1,24 @@
+[project]
+name = "signate-apple-hikkosi-analysis"
+version = "0.1.0"
+description = "Machine learning project for the SIGNATE Apple moving demand forecasting competition"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "ipykernel",
+    "ipynbname",
+    "ipywidgets",
+    "jpholiday",
+    "nbconvert",
+    "optuna",
+    "plotly",
+    "polars",
+    "prophet",
+    "pyarrow",
+    "scikit-learn",
+    "seaborn",
+    "statsmodels",
+]
+
+[tool.uv]
+package = false

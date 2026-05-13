@@ -20,24 +20,19 @@
 - [model_年月日_曜日_祝日_価格の和差積](https://t0bbut.github.io/signate_apple_hikkosi_analysis/model_年月日_曜日_祝日_価格の和差積.html)
 
 ## 環境の再現方法
-このリポジトリは **Python 3.11.9** (windows)で動作確認しています※。  
-以下の手順で仮想環境を構築し、requirements.txtから依存ライブラリをインストールできます。  
+このリポジトリは **Python 3.14** での利用を想定しています。  
+依存管理には `uv` を利用します。以下の手順で仮想環境の作成と依存ライブラリの同期を行えます。  
 
 ```bash
 git clone https://github.com/T0bbuT/signate_apple_hikkosi_analysis.git
 cd signate_apple_hikkosi_analysis
 
-# 仮想環境の作成
-python -m venv .venv
-
-# 仮想環境の有効化
-.venv\Scripts\activate
-
-# 依存ライブラリのインストール
-pip install -r requirements.txt
+# 仮想環境の作成と依存ライブラリの同期
+uv sync
 ```
-  
-※windows以外のOSの場合は、pip-toolsのpip-compileを使ってrequirements.inからコンパイルすることで、自身のOSに対応したrequirements.txtが作成できるかと思います。  
+
+仮想環境を手動で有効化する場合は、Windows では `.venv\Scripts\activate`、macOS / Linux では `source .venv/bin/activate` を使えます。  
+ノートブックを起動する場合は、必要に応じて `uv run jupyter lab` や `uv run jupyter notebook` を利用してください。  
 
 ### データについて
 その後、[コンペサイト](https://user.competition.signate.jp/ja/competition/detail/?competition=ada98a13ab224468b1c7191d819d7646)からデータをダウンロードし、data\input\に配置して実行しておりました。  
