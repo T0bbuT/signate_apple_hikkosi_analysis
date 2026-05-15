@@ -37,6 +37,3 @@ uv sync
 ### データについて
 その後、[コンペサイト](https://user.competition.signate.jp/ja/competition/detail/?competition=ada98a13ab224468b1c7191d819d7646)からデータをダウンロードし、data\input\に配置して実行しておりました。  
 ※ 2025/08/30現在、コンペは既に開催終了しておりデータへのアクセスは不可能です。  
-
-## リポジトリ(ローカルからのアクセス用)
-GitHub: https://github.com/T0bbuT/signate_apple_hikkosi_analysis  
