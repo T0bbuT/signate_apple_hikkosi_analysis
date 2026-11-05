@@ -1,23 +1,38 @@
 [project]
 name = "signate-apple-hikkosi-analysis"
 version = "0.1.0"
-description = "Machine learning project for the SIGNATE Apple moving demand forecasting competition"
+description = "Demand forecasting for a moving company (SIGNATE: Apple moving demand forecasting) with Prophet + Gradient Boosting"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
-    "ipykernel",
-    "ipynbname",
-    "ipywidgets",
-    "jpholiday",
-    "nbconvert",
-    "optuna",
-    "plotly",
-    "polars",
-    "prophet",
-    "pyarrow",
-    "scikit-learn",
-    "seaborn",
-    "statsmodels",
+    # データ処理
+    "numpy>=2.4",
+    "pandas>=3.0",
+    "polars>=1.40",
+    "pyarrow>=24.0",
+    # モデリング
+    "optuna>=4.8",
+    "prophet>=1.3",
+    "scikit-learn>=1.8",
+    "scipy>=1.17",
+    "statsmodels>=0.14.6",
+    # 特徴量（日本の祝日）
+    "jpholiday>=1.0.3",
+    # 可視化
+    "matplotlib>=3.10",
+    "plotly>=6.7",
+    "seaborn>=0.13.2",
+    # ノートブック実行
+    "ipykernel>=7.2",
+    "ipynbname>=2025.8",
+    "ipywidgets>=8.1",
+]
+
+[dependency-groups]
+# ノートブックの閲覧・HTML 書き出し用（`uv sync` でデフォルトでインストールされる）
+dev = [
+    "jupyterlab>=4.4",
+    "nbconvert>=7.17",
 ]
 
 [tool.uv]
