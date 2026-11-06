@@ -1,15 +1,23 @@
 <!DOCTYPE html>
-<html lang='ja'>
+<html lang="ja">
 <head>
-  <meta charset='UTF-8'>
-  <title>Docs Index</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>引越し需要予測 | 分析ノートブック</title>
+  <style>
+    body { font-family: system-ui, -apple-system, "Hiragino Sans", "Noto Sans JP", sans-serif; max-width: 720px; margin: 3rem auto; padding: 0 1rem; line-height: 1.7; color: #222; }
+    a { color: #0969da; }
+    li { margin: .5rem 0; }
+    .muted { color: #666; font-size: .9rem; }
+  </style>
 </head>
 <body>
-  <h1>Docs Index</h1>
-  <ul>    <li><a href='EDA.html'>EDA.html</a></li>
-    <li><a href='model_年月日_曜日_祝日_価格の和差積.html'>model_年月日_曜日_祝日_価格の和差積.html</a></li>
-    <li><a href='slides_thmb.png'>slides_thmb.png</a></li>
-    <li><a href='成果物資料_引っ越し需要予測.pdf'>成果物資料_引っ越し需要予測.pdf</a></li>
+  <h1>引越し需要予測</h1>
+  <p>SIGNATE「アップル 引越し需要予測」を題材にした、引越し受注件数の予測モデル構築の記録です。</p>
+  <ul>
+    <li><a href="EDA.html">EDA</a>：探索的データ分析、前処理方針の検討</li>
+    <li><a href="model_年月日_曜日_祝日_価格の和差積.html">モデル構築</a>：Prophet + 勾配ブースティングによる予測と評価</li>
   </ul>
+  <p class="muted">ソースコードと再現手順は <a href="https://github.com/T0bbuT/signate_apple_hikkosi_analysis">GitHub リポジトリ</a> を参照してください。</p>
 </body>
 </html>

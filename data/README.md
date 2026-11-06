@@ -1,3 +1,25 @@
-# 使用したデータについて
-[SIGNATEのコンペ「アップル 引越し需要予測」](https://user.competition.signate.jp/ja/competition/detail/?competition=ada98a13ab224468b1c7191d819d7646)からダウンロードしたデータを使用。  
-2025/08/29現在、コンペは既に開催終了しておりデータへのアクセスは不可能。
+# データについて
+
+[SIGNATE のコンペ「アップル 引越し需要予測」](https://user.competition.signate.jp/ja/competition/detail/?competition=ada98a13ab224468b1c7191d819d7646)で配布されたデータを使用しています。
+コンペデータは規約により再配布できないため、このリポジトリには含めていません（`.gitignore` で除外しています）。
+
+2025 年 8 月時点でコンペの開催は終了しており、データはダウンロードできなくなっています。
+
+## 配置するファイル
+
+| パス | 内容 |
+| --- | --- |
+| `data/input/train.csv` | 学習データ（2010-07-01〜2016-03-31） |
+| `data/input/test.csv` | 予測対象期間のデータ（2016-04-01〜2017-03-31） |
+| `data/output/sample_submit.csv` | 提出ファイルの見本（ヘッダーなし） |
+
+## カラム
+
+| カラム | 説明 |
+| --- | --- |
+| `datetime` | 日付 |
+| `y` | 引越し件数（目的変数。`train.csv` のみ） |
+| `client` | 法人が絡む特殊な引越しの日のフラグ |
+| `close` | 休業日フラグ |
+| `price_am` | 午前の料金区分（0〜5、高いほど高額。-1 は欠損） |
+| `price_pm` | 午後の料金区分（同上） |

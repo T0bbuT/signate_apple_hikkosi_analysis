@@ -1,2 +1,17 @@
+# Python / uv
 .venv/
 __pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / エディタ
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# コンペデータ（SIGNATE 規約により再配布不可のためコミットしない）
+data/input/*.csv
+data/output/*.csv
